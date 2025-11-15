@@ -8,7 +8,7 @@ int main() {
 
     while (temp > 0) {
         int digit = temp % 10;
-        sum += digit * digit * digit;   // cube of each digit
+        sum += digit * digit * digit;   
         temp /= 10;
     }
 
